@@ -13,6 +13,11 @@ article {
   display: none
 }
 
+button {
+  width: 300px;
+  margin: auto;
+}
+
 #img {
   width: 300px;
   margin: 0 auto;
