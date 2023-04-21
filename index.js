@@ -16,21 +16,21 @@ let num = 1;
 
       let result = {
         "ISTJ": {"animal":"ISTJ - 악어", "explain": "당신은 세렝게티에서 같은 종족이 가만히 있는 걸 견딜 수 없어 매일 날카로운 이빨로 으드득으드득 잔소리를 하는 악어네요~ 웁스! 이런 걸 현실세계에서는 틀딱이라고 하죠~ 그럼, 화이팅!!", "img": "./images/crocodile.png"},
-        "ISFJ": {"animal":"horse", "explain": "당신은 세렝게티에서 절대 살아남을 수 없는 소심 그잡채 토끼네요~ 지금도 이 글을 인정할 수 없어서 입만 대빵 삐죽 내밀고 있죠? 웁스! 이런 걸 현실세계에서는 극소심충이라고 하죠~ 그럼, 화이팅!!", "img": "./images/rabbit.png"},
-        "ISTP": {"animal":"ISTP - ", "explain": "당신은 세렝게티에서 인생 개썅마이웨이로 살아가는 공감능력 제로 노답 치타네요~ 웁스! 이런 걸 현실세계에서는 충고를 해도 처듣지를 않는 정신승리 닝겐이라고 하죠~ 그럼, 화이팅!!", "img": "./images/cheetah.png"},
+        "ISFJ": {"animal":"ISFJ - 토끼", "explain": "당신은 세렝게티에서 절대 살아남을 수 없는 소심 그잡채 토끼네요~ 지금도 이 글을 인정할 수 없어서 입만 대빵 삐죽 내밀고 있죠? 웁스! 이런 걸 현실세계에서는 극소심충이라고 하죠~ 그럼, 화이팅!!", "img": "./images/rabbit.png"},
+        "ISTP": {"animal":"ISTP - 치타", "explain": "당신은 세렝게티에서 인생 개썅마이웨이로 살아가는 공감능력 제로 노답 치타네요~ 웁스! 이런 걸 현실세계에서는 충고를 해도 처듣지를 않는 정신승리 닝겐이라고 하죠~ 그럼, 화이팅!!", "img": "./images/cheetah.png"},
         "ISFP": {"animal":"ISFP - 곰", "explain": "당신은 세렝게티에서 만사 귀찮음을 이기지 못하고 다른 동물들이 답답해서 한대 쥐어박고 싶은 멍텅구리 곰이네요~ 웁스! 이런 걸 현실세계에서는 융통성 제로 콜라라고 하죠~ 그럼, 화이팅!!", "img": "./images/bear.png"},
-        "INTJ": {"animal":"INTJ - 표범", "explain": "당신은 세렝게티에서 자신의 이익을 위해 사자와 호랑이를 이간질하는 표범이네요~ 그러다 둘에게 잡아먹히고 말텐데~ 웁스! 이런 걸 현실세계에서 주둥이만 나불거리는 정치질이라고 하죠~ 그럼, 화이팅!!", "img": "./images/leopard.png"},
-        "INFJ": {"animal":"INFJ - 원숭이", "explain": "당신은 세렝게티에서 큰 동물 뒤에 비겁하게 숨어다니는 원숭이네요~ 어쩔 땐 지나가는 동료 원숭이에게 썩은 바나나를 강요해요~ 웁스! 이런 걸 음침한 오타쿠라고 볼 수 있죠~ 그럼, 화이팅!!", "img": "./images/monkey.png"},
-        "INTP": {"animal":"horse", "explain": "당신은 세렝게티에서 잡아먹힐까 하루종일 쓸데없는 고민만하고 있는 라쿤이네요~ 웁스! 이런 걸 현실세계에서는 자기합리화 개쩌는 귀차니즘 AI닝겐이라고 할 수 있죠~ 그럼, 화이팅!!", "img": "./images/raccoon.png"},
-        "INFP": {"animal":"horse", "explain": "당신은 세렝게티에서 다양한 동물과 인사를 하고 지내지만, 존재감이 1도 없는 다람쥐네요~ 웁스! 이런 걸 현실세계에서는 365일 찐따라고 하죠~ 그럼, 화이팅!!", "img": "horse.png"},
-        "ESTJ": {"animal":"ESTJ - 호랑이", "explain": "당신은 세렝게티에서 살아남기 위해 대장인 척 하는데... 결국, 사자에게 밀려서 피눈물을 흘리고 피똥을 싸네요~ 웁스! 이런 걸 현실세계에서는 젊은 꼰대라고 하죠~ 그럼, 화이팅!!", "img": "./images/tiger.png"},
-        "ESFJ": {"animal":"horse", "explain": "말 설명", "img": "horse.png"},
-        "ESTP": {"animal":"horse", "explain": "말 설명", "img": "horse.png"},
-        "ESFP": {"animal":"horse", "explain": "말 설명", "img": "horse.png"},
-        "ENTJ": {"animal":"horse", "explain": "말 설명", "img": "horse.png"},
-        "ENFJ": {"animal":"horse", "explain": "말 설명", "img": "horse.png"},
-        "ENTP": {"animal":"horse", "explain": "말 설명", "img": "horse.png"},
-        "ENFP": {"animal":"horse", "explain": "말 설명", "img": "horse.png"}
+        "INTJ": {"animal":"INTJ - 표범", "explain": "당신은 세렝게티에서 자신의 이익을 위해 사자와 호랑이를 이간질하는 간사한 표범이네요~ 그러다 둘에게 잡아먹히고 말텐데~ 웁스! 이런 걸 현실세계에서 주둥이만 나불거리는 정치질이라고 하죠~ 그럼, 화이팅!!", "img": "./images/leopard.png"},
+        "INFJ": {"animal":"INFJ - 원숭이", "explain": "당신은 세렝게티에서 큰 동물 뒤에 비겁하게 숨어다니는 그림자 원숭이네요~ 어쩔 때 한 번, 지나가는 동료 원숭이에게 썩은 바나나를 강요해요~ 웁스! 이런 걸 음침한 오타쿠라고 볼 수 있죠~ 그럼, 화이팅!!", "img": "./images/monkey.png"},
+        "INTP": {"animal":"INTP - 라쿤", "explain": "당신은 세렝게티에서 잡아먹힐까 하루종일 쓸데없는 고민만 하고 있는 라쿤이네요~ 웁스! 이런 걸 현실세계에서는 자기합리화 개쩌는 귀차니즘 AI휴먼이라고 할 수 있죠~ 그럼, 화이팅!!", "img": "./images/raccoon.png"},
+        "INFP": {"animal":"INFP - 다람쥐", "explain": "당신은 세렝게티에서 다양한 동물과 인사를 하고 지내지만, 존재감이 1도 없는 다람쥐네요~ 웁스! 이런 걸 현실세계에서는 1년 365일 찐따라고 하죠~ 그럼, 화이팅!!", "img": "./images/squirrel.png"},
+        "ESTJ": {"animal":"ESTJ - 호랑이", "explain": "당신은 세렝게티에서 가오잡기 위해 대장인 척 하다 결국, 사자에게 밟혀서 피똥 싸는 호랑이네요~ 웁스! 이런 걸 현실세계에서는 젊은 꼰대라고 하죠~ 그럼, 화이팅!!", "img": "./images/tiger.png"},
+        "ESFJ": {"animal":"ESFJ - 기린", "explain": "좆목러", "img": "./images/giraffe.png"},
+        "ESTP": {"animal":"ESTP - 오랑우탄", "explain": "일호선 광인", "img": "./images/orangutan.png"},
+        "ESFP": {"animal":"ESFP - 독수리", "explain": "개관종", "img": "./images/eagle.png"},
+        "ENTJ": {"animal":"ENTJ - 사자", "explain": "선민의식", "img": "./images/lion.png"},
+        "ENFJ": {"animal":"ENFJ - 말", "explain": "우유부단", "img": "./images/horse.png"},
+        "ENTP": {"animal":"ENTP - 펜서", "explain": "쿨병 말기", "img": "./images/panther.png"},
+        "ENFP": {"animal":"ENFP - 얼룩말", "explain": "대가리 꽃밭", "img": "./images/zebra.png"}
       }
 
       function start() {
