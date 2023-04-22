@@ -1,6 +1,11 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.864);
+}
+
 article {
   display: flex;
   flex-direction: column;
+  color: white;
   /* align-items: center;
   justify-content: center; */
 }
@@ -14,7 +19,7 @@ article {
 }
 
 .btn {
-  width: 300px;
+  width: 700px;
   margin: auto;
   font-size: 25px;
   font-weight: bold;
