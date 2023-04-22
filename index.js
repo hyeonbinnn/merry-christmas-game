@@ -24,13 +24,13 @@ let num = 1;
         "INTP": {"animal":"INTP - 라쿤", "explain": "당신은 세렝게티에서 잡아먹힐까 하루종일 쓸데없는 고민만 하고 있는 라쿤이네요~ 웁스! 이런 걸 현실세계에서는 자기합리화 개쩌는 귀차니즘 AI휴먼이라고 할 수 있죠~ 그럼, 화이팅!!", "img": "./images/raccoon.png"},
         "INFP": {"animal":"INFP - 다람쥐", "explain": "당신은 세렝게티에서 다양한 동물과 인사를 하고 지내지만, 존재감이 1도 없는 다람쥐네요~ 웁스! 이런 걸 현실세계에서는 1년 365일 찐따라고 하죠~ 그럼, 화이팅!!", "img": "./images/squirrel.png"},
         "ESTJ": {"animal":"ESTJ - 호랑이", "explain": "당신은 세렝게티에서 가오잡기 위해 대장인 척 하다 결국, 사자에게 밟혀서 피똥 싸는 호랑이네요~ 웁스! 이런 걸 현실세계에서는 젊은 꼰대라고 하죠~ 그럼, 화이팅!!", "img": "./images/tiger.png"},
-        "ESFJ": {"animal":"ESFJ - 기린", "explain": "좆목러", "img": "./images/giraffe.png"},
-        "ESTP": {"animal":"ESTP - 오랑우탄", "explain": "일호선 광인", "img": "./images/orangutan.png"},
-        "ESFP": {"animal":"ESFP - 독수리", "explain": "개관종", "img": "./images/eagle.png"},
-        "ENTJ": {"animal":"ENTJ - 사자", "explain": "선민의식", "img": "./images/lion.png"},
-        "ENFJ": {"animal":"ENFJ - 말", "explain": "우유부단", "img": "./images/horse.png"},
-        "ENTP": {"animal":"ENTP - 펜서", "explain": "쿨병 말기", "img": "./images/panther.png"},
-        "ENFP": {"animal":"ENFP - 얼룩말", "explain": "대가리 꽃밭", "img": "./images/zebra.png"}
+        "ESFJ": {"animal":"ESFJ - 개구리", "explain": "당신은 세렝게티에서 말 많고 여기저기 참견하고 다니면서 일만 벌려놓는 개구리네요~ 웁스! 이런 걸 현실세계에서는 오지라퍼라고 하죠~ 그럼, 화이팅!!", "img": "./images/frog.png"},
+        "ESTP": {"animal":"ESTP - 오랑우탄", "explain": "당신은 세렝게티에서 무조건 말싸움을 이겨야하고 이것저것 찔러보며 매사에 즉흥적인 오랑우탄이네요~ 웁스! 이런 걸 현실세계에서는 인생은 노계획 욜로 폼생폼사라고 생각하는 월급 받자마자 탕진족이라고 하죠~ 그럼, 화이팅!!", "img": "./images/orangutan.png"},
+        "ESFP": {"animal":"ESFP - 독수리", "explain": "당신은 세렝게티에서 매일 파티를 열며 금사빠에 자기주장강한 변덕스러운 독수리네요~ 웁스! 이런 걸 현실세계에서는 개관종이라고 하죠~ 그럼, 화이팅!!", "img": "./images/eagle.png"},
+        "ENTJ": {"animal":"ENTJ - 사자", "explain": "당신은 세렝게티에서 무조건 대장 노릇을 해야하는 자존심쎄고 말로 동료를 때리는 사자네요~ 웁스! 이런 걸 현실세계에서는 감정 기복의 롤러코스터 정이라고는 1도 없는 나르시스 일중독자라고 하죠~ 그럼, 화이팅!!", "img": "./images/lion.png"},
+        "ENFJ": {"animal":"ENFJ - 말", "explain": "당신은 세렝게티에서 머릿속에 잡생각이 많고 완벽한 척만 하는 덤벙쟁이 말이네요~ 웁스! 이런 걸 현실세계에서는 고집세게 일 벌려놓고 마무리 못해서 눈치보며 감정기복이 요동치는 우유부단 인간이라고 하죠~ 그럼, 화이팅!!", "img": "./images/horse.png"},
+        "ENTP": {"animal":"ENTP - 펜서", "explain": "당신은 세렝게티에서 공감 능력이 떨어지고 뭘 해도 이겨야 하며 종종 공격적인 펜서네요~ 웁스! 이런 걸 현실세계에서는 자아도취에 빠져 감정 기복이 심한 독고다이 쿨병 말기병이라고 하죠~ 그럼, 화이팅!!", "img": "./images/panther.png"},
+        "ENFP": {"animal":"ENFP - 얼룩말", "explain": "당신은 세렝게티에서 가만히 있는 게 제일 힘들고 주의가 산만해서 자주 혼나는 얼룩말이네요~ 웁스! 이런 걸 현실세계에서는 하고 싶은 건 다 해야하고 자유로운 영혼을 가진 대가리 꽃밭이라고 하죠~ 그럼, 화이팅!!", "img": "./images/zebra.png"}
       }
 
       function start() {
