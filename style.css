@@ -1,41 +1,212 @@
+/* reset */
+body,
+h1,
+h2,
+p,
+ul,
+button {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Cafe24Supermagic-Bold-v1.0';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
 .container {
-  background-color: rgba(0, 0, 0, 0.864);
+  background: center/cover no-repeat url(./images/bg1.jpg);
+  font-family: 'Cafe24Supermagic-Bold-v1.0', sans-serif;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 article {
   display: flex;
   flex-direction: column;
-  color: white;
-  /* align-items: center;
-  justify-content: center; */
+  max-width: 70%;
+  width: 1000px;
+  height: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
 }
 
-.question {
-  display: none;
-}
-
-.result {
-  display: none
-}
-
-.btn {
-  width: 700px;
-  margin: auto;
-  font-size: 25px;
+button {
+  margin: 0px auto;
+  font-size: 30px;
   font-weight: bold;
+  border-radius: 10px;
 }
 
 h1 {
   font-weight: 600;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
 }
 
-
 #img {
   width: 300px;
-  margin: 0 auto;
+  margin: 20px auto 0px;
+}
+
+/* 시작 */
+.start {
+  max-width: 80%;
+}
+
+.img-title {
+  max-width: 100%;
+  width: 600px;
+}
+
+.sub-box {
+  display: flex;
+  align-items: center;
+  margin: 60px auto 50px;
+  gap: 30px;
+}
+
+.sub-title {
+  color: white;
+}
+
+.img-santa {
+  width: 100px;
+  height: 100px;
+}
+
+.btn-title {
+  max-width: 100%;
+  width: 150px;
+  background-color: #e84a4a;
+  padding: 15px;
+  color: white;
+}
+
+.btn-title:hover {
+  background-color: white;
+  color: #e84a4a;
+}
+
+/* 문제 */
+.question {
+  display: none;
+  background-color: white;
+  color: #274044;
+  border-radius: 10px;
+  position: relative;
+  border: 10px solid #f0caa9;
+}
+
+.img-deer {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qna {
+  margin-top: 150px;
+}
+
+.btn-qna {
+  color: white;
+  padding: 20px 30px;
+  background-color: #274044;
+  max-width: 100%;
+  width: 900px;
+}
+
+.btn-qna:hover {
+  background-color: #e84a4a;
+}
+
+.btn-qna:first-of-type {
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+/* 결과 */
+.result {
+  display: none;
+  background-color: white;
+  color: #274044;
+  border-radius: 10px;
+  position: relative;
+  border: 10px solid #e84a4a;
+}
+
+.img-bell {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.result-title {
+  margin-top: 70px;
+}
+
+/* 미디어 쿼리 */
+@media (max-width: 600px) {
+  button {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  /* 시작 */
+  .img-title {
+    margin-top: 50px;
+  }
+
+  .btn-title {
+    padding: 10px;
+  }
+
+  .sub-box {
+    flex-direction: column;
+    margin: 40px auto;
+    gap: 20px;
+  }
+
+  .img-santa {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* 문제 */
 }
