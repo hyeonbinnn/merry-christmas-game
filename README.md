@@ -1,5 +1,6 @@
 # 🎄🎅🏻 Merry Christmas Game
-![2](https://github.com/hyeonbinnn/merryxmas-game/assets/117449788/dedb9234-a001-423e-bf5d-1ac6d0b1a75d)
+![2](https://github.com/hyeonbinnn/merryxmas-game/assets/117449788/0e20f9a1-3629-40e6-87a7-596a4fd4b5f8)
+
 
 <br>
 <br>
@@ -20,6 +21,7 @@
 - 점수올라가면 저장된 문제 가져와서 다음 문제로 넘어가기
 - 진행바 질문 개수에 맞게 늘어나도록 변경  
 - 마지막 선택 끝나면, 결과 화면 보여주기
+- 다시 첫번째 질문으로 되돌아가기
 
 <br>
 <br>
@@ -106,7 +108,7 @@ $('.img-back').click(function () {
   next();
 });
 ```
-- 결과 페이지에서 이미지 백 버튼을 클릭하면 결과 화면을 숨기고, 현재 진행 번호 <strong>`num`</strong>을 1로 초기화한뒤, 다음 질문을 표시한다.
+- 결과 페이지에서 이미지 백 버튼을 클릭하면 결과 화면을 숨기고, 현재 진행 번호 <strong>`num`</strong>을 1로 초기화한 뒤, 다음 질문을 표시한다.
 
 <br>
 <br>
