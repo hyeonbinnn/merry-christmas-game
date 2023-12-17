@@ -44,7 +44,7 @@ article {
   flex-direction: column;
   max-width: 70%;
   width: 1000px;
-  height: 600px;
+  height: 70vh;
   margin: 80px auto;
   padding: 30px;
   text-align: center;
@@ -53,21 +53,19 @@ article {
 button {
   margin: 0px auto;
   font-size: 30px;
-  font-weight: bold;
   border-radius: 10px;
 }
 
 h1 {
-  font-weight: 600;
   font-size: 40px;
 }
 
 h2 {
   font-size: 40px;
-  font-weight: 500;
 }
 
 #img {
+  max-width: 100%;
   width: 300px;
   margin: 20px auto 0px;
 }
@@ -116,9 +114,9 @@ h2 {
   display: none;
   background-color: white;
   color: #274044;
-  border-radius: 10px;
   position: relative;
   border: 10px solid #f0caa9;
+  border-radius: 10px;
 }
 
 .img-deer {
@@ -130,8 +128,25 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
+.progress {
+  width: 100%;
+  height: 15px;
+  background-color: #faeee5;
+  /* margin-bottom: 10px; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: #fe7a7a;
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
 .qna {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .btn-qna {
@@ -140,6 +155,7 @@ h2 {
   background-color: #274044;
   max-width: 100%;
   width: 900px;
+  font-size: 25px;
 }
 
 .btn-qna:hover {
@@ -147,8 +163,8 @@ h2 {
 }
 
 .btn-qna:first-of-type {
-  margin-bottom: 20px;
-  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-top: 130px;
 }
 
 /* 결과 */
@@ -174,8 +190,24 @@ h2 {
   margin-top: 70px;
 }
 
+.result-sub-title {
+  font-size: 25px;
+}
+
+.img-back {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 /* 미디어 쿼리 */
 @media (max-width: 600px) {
+  article {
+    height: 75vh;
+  }
+
   button {
     font-size: 25px;
   }
@@ -190,7 +222,7 @@ h2 {
 
   /* 시작 */
   .img-title {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .btn-title {
@@ -199,7 +231,7 @@ h2 {
 
   .sub-box {
     flex-direction: column;
-    margin: 40px auto;
+    margin: 30px auto 40px;
     gap: 20px;
   }
 
@@ -209,4 +241,21 @@ h2 {
   }
 
   /* 문제 */
+  .btn-qna {
+    color: white;
+    padding: 20px 30px;
+    background-color: #274044;
+    max-width: 100%;
+    width: 900px;
+    font-size: 20px;
+  }
+
+  /* 결과 */
+  .result-title {
+    margin-top: 50px;
+  }
+
+  .result-sub-title {
+    font-size: 20px;
+  }
 }
